@@ -1,0 +1,116 @@
+            /* default elements in all pages */
+            
+            * {
+                box-sizing: border-box;
+                font-family: 'Lato', sans-serif;
+                color: #777;
+            }
+            
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .nav ul {
+                margin: 0;
+            }
+            
+            .nav li {
+                display: inline;
+            }
+            
+            .nav a {
+                display: inline-block;
+                padding: .5em;
+                color: white;
+                text-decoration: none;
+            }
+            
+            .main-nav {
+                text-align: center;
+                font-size: 1.1em;
+                font-weight: lighter;
+                border-bottom: 1px solid rgba(255, 255, 255, .3)
+            }
+            
+            .main-nav {
+                padding: 0 5%;
+            }
+            
+            .nav a:hover {
+                background-color: rgba(255, 255, 255, .3)
+            }
+            /* styles header */
+            
+            .main-header {
+                background-image: url("images/rainforest.jpg");
+                background-blend-mode: multiply;
+                background-size: cover;
+                padding-bottom: 50px;
+            }
+            
+            .shop-name {
+                text-align: center;
+                margin: 0;
+                font-size: 4em;
+                font-family: 'Orbitron', sans-serif;
+                font-weight: normal;
+                color: white;
+            }
+            
+            .shop-name-large {
+                font-size: 4em;
+            }
+            
+            .content {
+                margin: 1em;
+            }
+            
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 0 1.5em;
+            }
+            
+            .section-header {
+                font-family: 'Orbitron', sans-serif;
+                font-weight: normal;
+                color: #333;
+                text-align: center;
+                font-size: 2.5em;
+            }
+            
+            .index-image {
+                float: left;
+                height: 200px;
+                width: 350px;
+                margin: 15px;
+                border-radius: 50%;
+            }
+            
+            .main-footer {
+                background-color: rgb(145, 175, 111);
+                color: white;
+                padding: .25em 0;
+            }
+            
+            .main-footer-container {
+                display: flex;
+                align-items: center;
+            }
+            
+            .main-footer-container ul {
+                flex-grow: 1;
+                text-align: end;
+            }
+            
+            .footer.nav li {
+                padding: 0 .5em;
+            }
+            
+            .footer.nav {
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+            }
